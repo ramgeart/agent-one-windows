@@ -18,11 +18,17 @@
     <img src="https://img.shields.io/badge/Join%20on-Discord-5865F2?logo=discord&logoColor=white&style=flat" alt="Join us on Discord">
   </a>
 
+  <br>
+  
+  **[English](README.md)** | **[Español](DOCUMENTACION.md)**
+
 </div>
 
 <br>
 
 **Windows-Use** is a powerful automation agent that interact directly with the Windows at GUI layer. It bridges the gap between AI Agents and the Windows OS to perform tasks such as opening apps, clicking buttons, typing, executing shell commands, and capturing UI state all without relying on traditional computer vision models. Enabling any LLM to perform computer automation instead of relying on specific models for it.
+
+> 📚 **For comprehensive documentation in Spanish including detailed LLM configuration, vision system guide, and troubleshooting, see [DOCUMENTACION.md](DOCUMENTACION.md)**
 
 ## Updates
 - Migrated from langchain, langgraph.
