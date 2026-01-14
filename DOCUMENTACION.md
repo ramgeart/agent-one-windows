@@ -27,6 +27,8 @@
 
 **Windows-Use** es un agente de automatización avanzado que puede interactuar directamente con el sistema operativo Windows a través de su interfaz gráfica (GUI). El agente utiliza modelos de lenguaje grandes (LLM) para comprender instrucciones en lenguaje natural y ejecutar acciones automatizadas en el escritorio.
 
+> 📦 **Inicio Rápido**: Si prefieres empezar con ejemplos prácticos, consulta el directorio [`examples/`](examples/) que contiene scripts listos para ejecutar y una guía de configuración paso a paso.
+
 ### Características Principales
 
 - ✅ **Interacción GUI Completa**: Control de mouse, teclado, y elementos de la interfaz
@@ -229,7 +231,7 @@ llm = ChatOpenRouter(
 
 ### Variables de Entorno Recomendadas
 
-Crea un archivo `.env` en el directorio raíz:
+Crea un archivo `.env` en el directorio raíz (o copia [`examples/example.env`](examples/example.env)):
 
 ```env
 # Google
@@ -466,6 +468,8 @@ agent = Agent(
 
 ## Ejemplos de Uso Avanzado
 
+> 💡 **Ver también**: Consulta el directorio [`examples/`](examples/) para scripts completos y listos para ejecutar.
+
 ### Ejemplo 1: Automatización Básica
 
 ```python
@@ -482,6 +486,8 @@ agent.print_response(
     query="Abre el Bloc de notas y escribe 'Hola Mundo'"
 )
 ```
+
+📁 **Ejemplo completo**: [`examples/basic_usage.py`](examples/basic_usage.py)
 
 ### Ejemplo 2: Modo Interactivo
 
@@ -507,6 +513,8 @@ while True:
         agent.print_response(query=query)
         print("\n" + "="*50 + "\n")
 ```
+
+📁 **Ejemplo completo**: [`examples/interactive_mode.py`](examples/interactive_mode.py)
 
 ### Ejemplo 3: Tarea Compleja con Memoria
 
@@ -537,6 +545,8 @@ Realiza las siguientes tareas:
 
 agent.print_response(query=query)
 ```
+
+📁 **Ejemplo completo**: [`examples/advanced_with_memory.py`](examples/advanced_with_memory.py)
 
 ### Ejemplo 4: Análisis del Sistema
 
